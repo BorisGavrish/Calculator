@@ -1,24 +1,24 @@
 public class Сalculator {
 
     public static int sum(int a, int b) {
-        int summa = a + b;
-        return summa;
+        int sum = a + b;
+        System.out.println(sum);
+        return sum;
     }
 
     public static int minus(int a, int b) {
-        int raznica = a - b;
-
-        return raznica;
+        int sub = a - b;
+        return sub;
     }
 
     public static int multiply(int a, int b) {
-        int multi = a * b;
-        return multi;
+        int res = a * b;
+        return res;
     }
 
     public static int division(int a, int b) {
-        int division = a / b;
-        return division;
+        int div = a / b;
+        return div;
     }
 
     public static void sleepAlways() {
