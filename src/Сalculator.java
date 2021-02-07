@@ -21,7 +21,7 @@ public class Сalculator {
         return division;
     }
 
-    public static void sleep() {
+    public static void sleepAlways() {
         System.out.println("Я устал, и иду спать");
     }
 
@@ -34,7 +34,7 @@ public class Сalculator {
         System.out.println("Бро, я умножил. Результат равен" + multiply(14, 2));
 
         System.out.println("Бро, я разделил. Результат равен" + division(9, 2));
-        sleep();
+        sleepAlways();
         System.out.println("Проверка " + (sum(1, 1) + minus(10, 5)));
     }
 }
