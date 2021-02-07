@@ -17,8 +17,8 @@ public class Сalculator {
     }
 
     public static int division(int a, int b) {
-        int divi = a / b;
-        return divi;
+        int division = a / b;
+        return division;
     }
 
     public static void sleep() {
